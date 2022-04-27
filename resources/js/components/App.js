@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 
 function App() {
     return (
-        <div>
+        <h1 className="text-3xl font-bold underline">
             Hello
-        </div>
+        </h1>
     );
 }
 
 export default App;
 
 if (document.getElementById('app')) {
-    ReactDOM.render(<App />, document.getElementById('app'));
+    ReactDOM.render(<App/>, document.getElementById('app'));
 }
